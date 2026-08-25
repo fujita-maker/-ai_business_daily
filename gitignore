@@ -1,0 +1,10 @@
+# APIキーなどの秘密情報は絶対にコミットしない
+.env
+
+# Renderではディスクが使い捨てなので実質不要だが、ローカル運用時のため
+logs/
+archive/
+__pycache__/
+*.pyc
+venv/
+.DS_Store
